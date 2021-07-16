@@ -9,7 +9,7 @@ public class GreetingController {
 
     @GetMapping("/")
     public String greeting(){
-        return "Hello from" ;
+        return "Hello from eureka-service" ;
     }
 
 
